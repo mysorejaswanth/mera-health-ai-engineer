@@ -1,7 +1,7 @@
-"""No-key comparison baseline: first page rasterized at 300 DPI, then Tesseract.
+"""No-key comparison baseline: first page rasterized at 200 DPI, then Tesseract.
 
 This is a reproducible local comparison baseline, NOT a claim about Gemini's output.
-The supplied Gemini baseline cannot be executed without a user-provided API key. A 300-DPI render avoids intentionally degrading OCR resolution.
+The supplied Gemini baseline cannot be executed without a user-provided API key. The 200-DPI render is a practical local quality/speed trade-off; results are not comparable to the supplied Gemini API baseline.
 """
 from __future__ import annotations
 import subprocess
@@ -9,7 +9,7 @@ import tempfile
 from pathlib import Path
 from common import parse_rows
 
-DPI = 300
+DPI = 200
 
 
 def get_text(path: Path) -> str:
