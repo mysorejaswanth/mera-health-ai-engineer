@@ -21,7 +21,7 @@
         "unit": 0.4855,
         "reference_range": 0.5435
       },
-      "mean_latency_seconds": 4.414,
+      "mean_latency_seconds": 4.566,
       "cost_usd_per_report": 0.0
     },
     "final": {
@@ -38,7 +38,7 @@
         "unit": 0.8406,
         "reference_range": 0.8841
       },
-      "mean_latency_seconds": 4.081,
+      "mean_latency_seconds": 4.553,
       "cost_usd_per_report": 0.0
     }
   },
@@ -117,7 +117,7 @@
             "issue": "missing row"
           }
         ],
-        "latency_seconds": 5.336,
+        "latency_seconds": 2.914,
         "cost_usd_per_report": 0.0
       },
       "final": {
@@ -154,7 +154,7 @@
             }
           }
         ],
-        "latency_seconds": 0.019,
+        "latency_seconds": 0.021,
         "cost_usd_per_report": 0.0
       }
     },
@@ -220,7 +220,7 @@
             }
           }
         ],
-        "latency_seconds": 3.586,
+        "latency_seconds": 3.96,
         "cost_usd_per_report": 0.0
       },
       "final": {
@@ -238,7 +238,7 @@
           "reference_range": 1.0
         },
         "errors": [],
-        "latency_seconds": 0.02,
+        "latency_seconds": 0.028,
         "cost_usd_per_report": 0.0
       }
     },
@@ -296,7 +296,7 @@
             }
           }
         ],
-        "latency_seconds": 2.361,
+        "latency_seconds": 2.887,
         "cost_usd_per_report": 0.0
       },
       "final": {
@@ -314,7 +314,7 @@
           "reference_range": 1.0
         },
         "errors": [],
-        "latency_seconds": 0.016,
+        "latency_seconds": 0.018,
         "cost_usd_per_report": 0.0
       }
     },
@@ -556,7 +556,7 @@
             }
           }
         ],
-        "latency_seconds": 7.948,
+        "latency_seconds": 8.552,
         "cost_usd_per_report": 0.0
       },
       "final": {
@@ -731,7 +731,7 @@
             }
           }
         ],
-        "latency_seconds": 10.302,
+        "latency_seconds": 11.527,
         "cost_usd_per_report": 0.0
       }
     },
@@ -861,7 +861,7 @@
             }
           }
         ],
-        "latency_seconds": 7.642,
+        "latency_seconds": 8.231,
         "cost_usd_per_report": 0.0
       },
       "final": {
@@ -988,7 +988,7 @@
             }
           }
         ],
-        "latency_seconds": 9.911,
+        "latency_seconds": 10.727,
         "cost_usd_per_report": 0.0
       }
     },
@@ -1032,7 +1032,7 @@
             }
           }
         ],
-        "latency_seconds": 1.351,
+        "latency_seconds": 1.77,
         "cost_usd_per_report": 0.0
       },
       "final": {
@@ -1069,7 +1069,7 @@
             }
           }
         ],
-        "latency_seconds": 5.066,
+        "latency_seconds": 5.444,
         "cost_usd_per_report": 0.0
       }
     },
@@ -1179,7 +1179,7 @@
             }
           }
         ],
-        "latency_seconds": 2.44,
+        "latency_seconds": 2.768,
         "cost_usd_per_report": 0.0
       },
       "final": {
@@ -1324,7 +1324,7 @@
             }
           }
         ],
-        "latency_seconds": 7.275,
+        "latency_seconds": 8.618,
         "cost_usd_per_report": 0.0
       }
     },
@@ -1490,7 +1490,7 @@
             "issue": "missing row"
           }
         ],
-        "latency_seconds": 4.645,
+        "latency_seconds": 5.446,
         "cost_usd_per_report": 0.0
       },
       "final": {
@@ -1508,7 +1508,7 @@
           "reference_range": 1.0
         },
         "errors": [],
-        "latency_seconds": 0.036,
+        "latency_seconds": 0.037,
         "cost_usd_per_report": 0.0
       }
     }
