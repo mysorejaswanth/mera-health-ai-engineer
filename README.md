@@ -19,10 +19,10 @@ The supplied Gemini baseline could not run without `GEMINI_API_KEY`; I do **not*
 
 | Metric | Local OCR baseline | Final |
 |---|---:|---:|
-| Exact-row precision / recall / F1 | 67.4 / 46.4 / 54.9% | 83.0 / 81.2 / 82.1% |
-| Field accuracy (name / value / unit / range) | 68.1 / 52.9 / 52.2 / 58.0% | 97.8 / 89.1 / 84.1 / 88.4% |
-| Predicted / gold rows | 95 / 138 | 135 / 138 |
-| Mean latency per labelled report | 1.98 s | 2.03 s |
+| Exact-row precision / recall / F1 | 66.7 / 43.5 / 52.6% | 83.0 / 81.2 / 82.1% |
+| Field accuracy (name / value / unit / range) | 64.5 / 50.0 / 48.6 / 54.4% | 97.8 / 89.1 / 84.1 / 88.4% |
+| Predicted / gold rows | 90 / 138 | 135 / 138 |
+| Mean latency per labelled report | 4.438 s | 4.086 s |
 | API cost per report | $0.00 | $0.00 |
 
 Exact row = normalized test name, value, unit and report-provided reference range all match; missing rows/fields count as wrong. Numeric formatting (`3.0` vs `3`), case and whitespace are normalized. This is a small-data proxy, not clinical validation. Gold remains unchanged: report 01 labels Platelet Count as `304000`, but the readable PDF text says `340000`; the row remains scored wrong.
