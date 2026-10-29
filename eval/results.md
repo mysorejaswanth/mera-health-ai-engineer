@@ -8,7 +8,7 @@
 | Exact-row recall | 43.5% | 81.2% |
 | Exact-row F1 | 52.6% | 82.1% |
 | Predicted rows / gold rows | 90 / 138 | 135 / 138 |
-| Mean latency per labelled report | 4.438s | 4.086s |
+| Mean latency per labelled report | 4.414s | 4.081s |
 | API cost per report | $0.00 | $0.00 |
 
 ## Per-report exact-row results
