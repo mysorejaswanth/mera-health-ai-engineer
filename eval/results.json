@@ -9,19 +9,19 @@
   "aggregate": {
     "baseline": {
       "gold_rows": 138,
-      "predicted_rows": 95,
-      "name_recall": 0.6812,
-      "exact_rows": 64,
-      "exact_row_precision": 0.6737,
-      "exact_row_recall": 0.4638,
-      "exact_row_f1": 0.5494,
+      "predicted_rows": 90,
+      "name_recall": 0.6449,
+      "exact_rows": 60,
+      "exact_row_precision": 0.6667,
+      "exact_row_recall": 0.4348,
+      "exact_row_f1": 0.5263,
       "field_accuracy": {
-        "test_name": 0.6812,
-        "value": 0.529,
-        "unit": 0.5217,
-        "reference_range": 0.5797
+        "test_name": 0.6449,
+        "value": 0.5,
+        "unit": 0.4855,
+        "reference_range": 0.5435
       },
-      "mean_latency_seconds": 1.984,
+      "mean_latency_seconds": 4.438,
       "cost_usd_per_report": 0.0
     },
     "final": {
@@ -38,7 +38,7 @@
         "unit": 0.8406,
         "reference_range": 0.8841
       },
-      "mean_latency_seconds": 2.028,
+      "mean_latency_seconds": 4.086,
       "cost_usd_per_report": 0.0
     }
   },
@@ -117,7 +117,7 @@
             "issue": "missing row"
           }
         ],
-        "latency_seconds": 0.73,
+        "latency_seconds": 5.325,
         "cost_usd_per_report": 0.0
       },
       "final": {
@@ -154,7 +154,7 @@
             }
           }
         ],
-        "latency_seconds": 0.015,
+        "latency_seconds": 0.033,
         "cost_usd_per_report": 0.0
       }
     },
@@ -162,23 +162,31 @@
       "report": "report_02",
       "baseline": {
         "gold_rows": 16,
-        "predicted_rows": 16,
-        "name_recall": 1.0,
-        "exact_rows": 14,
-        "exact_row_precision": 0.875,
-        "exact_row_recall": 0.875,
-        "exact_row_f1": 0.875,
+        "predicted_rows": 14,
+        "name_recall": 0.875,
+        "exact_rows": 12,
+        "exact_row_precision": 0.8571,
+        "exact_row_recall": 0.75,
+        "exact_row_f1": 0.8,
         "field_accuracy": {
-          "test_name": 1.0,
-          "value": 0.875,
-          "unit": 1.0,
-          "reference_range": 1.0
+          "test_name": 0.875,
+          "value": 0.75,
+          "unit": 0.875,
+          "reference_range": 0.875
         },
         "errors": [
           {
+            "test_name": "Aspartate Aminotransferase",
+            "issue": "missing row"
+          },
+          {
+            "test_name": "Alanine Aminotransferase",
+            "issue": "missing row"
+          },
+          {
             "test_name": "Protein Total",
             "predicted": {
-              "value": "7",
+              "value": "71",
               "unit": "g/dL",
               "reference_range": "6.4 - 8.3"
             },
@@ -212,7 +220,7 @@
             }
           }
         ],
-        "latency_seconds": 1.015,
+        "latency_seconds": 3.492,
         "cost_usd_per_report": 0.0
       },
       "final": {
@@ -230,7 +238,7 @@
           "reference_range": 1.0
         },
         "errors": [],
-        "latency_seconds": 0.017,
+        "latency_seconds": 0.02,
         "cost_usd_per_report": 0.0
       }
     },
@@ -255,7 +263,7 @@
             "test_name": "T4",
             "predicted": {
               "value": "10.9",
-              "unit": "g/dL",
+              "unit": "ug/dL",
               "reference_range": null
             },
             "gold": {
@@ -288,7 +296,7 @@
             }
           }
         ],
-        "latency_seconds": 0.75,
+        "latency_seconds": 2.377,
         "cost_usd_per_report": 0.0
       },
       "final": {
@@ -306,7 +314,7 @@
           "reference_range": 1.0
         },
         "errors": [],
-        "latency_seconds": 0.015,
+        "latency_seconds": 0.016,
         "cost_usd_per_report": 0.0
       }
     },
@@ -548,7 +556,7 @@
             }
           }
         ],
-        "latency_seconds": 5.521,
+        "latency_seconds": 8.022,
         "cost_usd_per_report": 0.0
       },
       "final": {
@@ -723,7 +731,7 @@
             }
           }
         ],
-        "latency_seconds": 6.149,
+        "latency_seconds": 10.321,
         "cost_usd_per_report": 0.0
       }
     },
@@ -853,7 +861,7 @@
             }
           }
         ],
-        "latency_seconds": 5.588,
+        "latency_seconds": 7.607,
         "cost_usd_per_report": 0.0
       },
       "final": {
@@ -980,7 +988,7 @@
             }
           }
         ],
-        "latency_seconds": 6.282,
+        "latency_seconds": 9.982,
         "cost_usd_per_report": 0.0
       }
     },
@@ -1024,7 +1032,7 @@
             }
           }
         ],
-        "latency_seconds": 0.382,
+        "latency_seconds": 1.345,
         "cost_usd_per_report": 0.0
       },
       "final": {
@@ -1061,7 +1069,7 @@
             }
           }
         ],
-        "latency_seconds": 1.714,
+        "latency_seconds": 4.922,
         "cost_usd_per_report": 0.0
       }
     },
@@ -1171,7 +1179,7 @@
             }
           }
         ],
-        "latency_seconds": 0.599,
+        "latency_seconds": 2.564,
         "cost_usd_per_report": 0.0
       },
       "final": {
@@ -1316,7 +1324,7 @@
             }
           }
         ],
-        "latency_seconds": 2.001,
+        "latency_seconds": 7.337,
         "cost_usd_per_report": 0.0
       }
     },
@@ -1324,36 +1332,30 @@
       "report": "report_11",
       "baseline": {
         "gold_rows": 54,
-        "predicted_rows": 30,
-        "name_recall": 0.5556,
-        "exact_rows": 27,
-        "exact_row_precision": 0.9,
-        "exact_row_recall": 0.5,
-        "exact_row_f1": 0.6429,
+        "predicted_rows": 27,
+        "name_recall": 0.5,
+        "exact_rows": 25,
+        "exact_row_precision": 0.9259,
+        "exact_row_recall": 0.463,
+        "exact_row_f1": 0.6173,
         "field_accuracy": {
-          "test_name": 0.5556,
-          "value": 0.5,
-          "unit": 0.5556,
-          "reference_range": 0.5556
+          "test_name": 0.5,
+          "value": 0.463,
+          "unit": 0.5,
+          "reference_range": 0.5
         },
         "errors": [
           {
-            "test_name": "Total Bilirubin",
-            "predicted": {
-              "value": "131",
-              "unit": "mg/dL",
-              "reference_range": "0.30 - 1.20"
-            },
-            "gold": {
-              "value": "1.31",
-              "unit": "mg/dL",
-              "reference_range": "0.30 - 1.20"
-            },
-            "field_matches": {
-              "value": false,
-              "unit": true,
-              "reference_range": true
-            }
+            "test_name": "Mean Corpuscular Volume",
+            "issue": "missing row"
+          },
+          {
+            "test_name": "Aspartate Aminotransferase",
+            "issue": "missing row"
+          },
+          {
+            "test_name": "Alanine Aminotransferase",
+            "issue": "missing row"
           },
           {
             "test_name": "Serum Albumin",
@@ -1488,7 +1490,7 @@
             "issue": "missing row"
           }
         ],
-        "latency_seconds": 1.288,
+        "latency_seconds": 4.768,
         "cost_usd_per_report": 0.0
       },
       "final": {
@@ -1506,7 +1508,7 @@
           "reference_range": 1.0
         },
         "errors": [],
-        "latency_seconds": 0.03,
+        "latency_seconds": 0.054,
         "cost_usd_per_report": 0.0
       }
     }
